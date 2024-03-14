@@ -1,0 +1,377 @@
+* {
+  /* box-sizing: border-box; */
+  list-style: none;
+  /* text-decoration: none; */
+  margin: 0;
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+:root {
+  --first-color-text: #2e2f42;
+  --second-color-text: #404bbf;
+  --button-colour-text: #f4f4fd;
+  --color-white: white;
+  --iris: #4d5ae5;
+  --color-text: #434455;
+}
+
+.container {
+  /* display: flex;
+  align-items: center; */
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container_portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  /* margin-bottom: 8px; */
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  display: block;
+}
+
+.a_footer {
+  display: inline-block;
+}
+
+.nav_logo {
+  /* display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 1440px;
+  height: 72px; */
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.nav-ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-right: auto;
+}
+
+.nav-li {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+}
+
+.nav-li-header {
+  display: flex;
+  margin-right: 0;
+}
+
+.nav_a {
+  display: flex;
+  margin-right: 76px;
+}
+
+.footer_a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+  display: inline-block;
+  margin-bottom: 16px;
+  text-decoration: none;
+}
+
+.footer-p {
+  max-width: 264px;
+}
+
+.li_sect_a_one {
+  display: flex;
+  gap: 24px;
+}
+
+.p_sect_a_one {
+  width: calc((100% - 72px) / 4);
+}
+
+.img-sect-three {
+  width: calc((100% - 48px) / 3);
+}
+
+.nag-four {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--first-color-text);
+  max-width: 496px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.name {
+  padding: 32px 0px;
+}
+
+.p-sect-four {
+  text-align: center;
+  color: var(--color-text);
+  font-weight: 400;
+}
+
+.p_footer {
+  max-width: 264px;
+}
+
+.sect_portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.li_portfolio {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.li_portfolio_img {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.a_img {
+  width: calc((100% - 48px) / 3);
+  /* text-decoration: none; */
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.text {
+  color: var(--color-text);
+  font-weight: 400;
+}
+
+.list {
+  font-weight: 500;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  /* letter-spacing: 0.02em;
+  color: var(--first-color-text);
+  list-style: none; */
+}
+
+.list-address {
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+  list-style: none;
+}
+
+span {
+  color: var(--first-color-text);
+}
+
+.white {
+  color: var(--button-colour-text);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  background-color: var(--iris);
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: var(--second-color-text);
+  color: var(--color-white);
+  border: 1px solid transparent;
+}
+
+.button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  background-color: var(--iris);
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+}
+
+.button_p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--button-colour-text);
+  cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+.button_p:focus {
+  color: var(--color-white);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-text);
+  line-height: 1.6;
+  background-color: var(--color-white);
+}
+
+.a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+a {
+  color: var(--color-text);
+}
+
+a:active,
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: var(--second-color-text);
+}
+
+.nagh_a {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.nagh_b {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--first-color-text);
+  /* max-width: 496px; */
+  margin-bottom: 8px;
+}
+
+.nagh_c {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--first-color-text);
+  margin-bottom: 72px;
+}
+
+.sect_hero {
+  background-color: var(--first-color-text);
+  padding: 188px 0;
+}
+
+.sect_benefits {
+  padding: 120px 0;
+}
+
+.sect_range {
+  padding-bottom: 120px;
+}
+
+.sect_team {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+.white_background {
+  background-color: var(--color-white);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.p_portfolio {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-text);
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.footer-back {
+  background-color: var(--first-color-text);
+  padding: 100px 0;
+}
+
+.li-main {
+  width: calc((100% - 48px) / 3);
+}
+
+/* <a class="a_footer" href=""></a> */
