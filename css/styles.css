@@ -98,7 +98,7 @@ img {
   margin-right: 76px;
 }
 
-.nav_a::after{
+/* .nav_a::after{
   content: '';
   width: 100%;
   position: absolute;
@@ -107,7 +107,7 @@ img {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-}
+} */
 
 .footer_a {
   font-family: "Raleway", sans-serif;
