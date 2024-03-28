@@ -257,6 +257,7 @@ button:focus {
   height: 56px;
   border: none;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button_p {
@@ -334,29 +335,27 @@ a:hover {
 
 .sect_hero {
   text-align: center;
-    max-width: 1600px;
+    max-width: 1440px;
     margin: 0 auto;
     color: var(--secondary-text-color);
-    background-image: linear-gradient(#2f303a66, #2f303a66),
-    url(".images/people-office_1-2.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(..images/people-office_1-2.jpg);
     background-color: var(--secondary-text-color);
-  /* width: 1440px;
-    height: 600px;
-    top: 72px;
-    /* gap: 0px; */
-    /* opacity: 0px; */
-    /* background-image:  */
-    /* linear-gradient(to right, */
-      /* rgba(47, 48, 58, 0.4), */
-      /* rgba(47, 48, 58, 0.4)), */
-    /* url("./images/people-office 1-2.jpg"); */
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
-    /* background-size: cover; */
-    /* text-align: center; */
-    /* color: var(--secondary-text-color); */
-  /* background-color: var(--first-color-text); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   padding: 188px 0;
+}
+
+.features-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
 }
 
 .sect_benefits {
