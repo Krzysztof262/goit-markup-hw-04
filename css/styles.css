@@ -98,16 +98,16 @@ img {
   margin-right: 76px;
 }
 
-/* .nav_a::after{
+.nav_a::after{
   content: '';
   width: 100%;
-  position: absolute;
+  /* position: absolute; */
   left: 0;
   bottom: -1px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-} */
+} 
 
 .footer_a {
   font-family: "Raleway", sans-serif;
@@ -354,7 +354,7 @@ a:hover {
     margin: 0 auto;
     color: var(--secondary-text-color);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(..images/people-office_1-2.jpg);
+    url(.images/people-office_1-2.jpg);
     background-color: var(--secondary-text-color);
     background-repeat: no-repeat;
     background-position: center;
