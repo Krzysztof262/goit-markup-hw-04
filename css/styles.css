@@ -38,10 +38,10 @@
 
 .container_footer{
 display: flex;
-/* width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto; */
 align-items: baseline;
+width: 1158px;
+padding: 0 15px;
+margin: 0 auto;
 }
 
 .container_portfolio {
@@ -108,12 +108,11 @@ position: relative;
   display: flex;
   width: 40px;
   height: 40px;
-  width: 100%;
-  height: 100%;
 background-color:var(--iris);
 border-radius:50%;
 align-items: center;
 justify-content: center;
+background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon_p:hover, .icon_p:focus{
@@ -121,8 +120,6 @@ justify-content: center;
 }
 
 .svg_icon_p {
-  /* width: 24; */
-  /* height: 24; */
   fill: var(--button-colour-text);
 }
 
@@ -247,13 +244,13 @@ img {
 }
 
 .nav_logo {
-  /* display: flex;
+  display: flex;
   justify-content: end;
   align-items: center;
   width: 1440px;
-  height: 72px; */
+  height: 72px;
   border-bottom: 1px solid #e7e9fc;
-  /* box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); */
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .nav {
