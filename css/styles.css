@@ -36,6 +36,14 @@
   margin: 0 auto;
 }
 
+.container_footer{
+display: flex;
+/* width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto; */
+align-items: baseline;
+}
+
 .container_portfolio {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -43,6 +51,44 @@
   /* margin-bottom: 8px; */
 }
 
+.container_footer_logo{
+  margin-right: 120px;
+
+}
+
+.container_footer_p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+  margin-bottom: 16px;
+}
+
+.footer_list_icon{
+  display: flex;
+  gap: 16px;
+}
+
+.icon_p{
+  display: flex;
+  width: 40px;
+  height: 40px;
+  width: 100%;
+  height: 100%;
+background-color:var(--iris);
+border-radius:50%;
+align-items: center;
+justify-content: center;
+}
+
+.icon_p:hover, .icon_p:focus{
+  background-color: #31d0aa;
+}
+
+.svg_icon_p {
+  fill: var(--button-colour-text);
+}
 
 .header {
   display: flex;
@@ -69,9 +115,11 @@
   border-radius:50%;
   align-items: center;
   justify-content: center;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon:hover {
+.icon:hover,
+.icon:focus {
   background-color: #404bbf;
 }
 
@@ -383,7 +431,7 @@ a:hover {
     margin: 0 auto;
     color: var(--secondary-text-color);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(.images/people-office_1-2.jpg);
+    url(../images/people-office_1-2.jpg);
     background-color: var(--secondary-text-color);
     background-repeat: no-repeat;
     background-position: center;
@@ -391,8 +439,8 @@ a:hover {
   padding: 188px 0;
 }
 
-.features-icon {
-  display: flex;
+.features{
+display: flex;
   align-items: center;
   justify-content: center;
   height: 112px;
@@ -401,6 +449,17 @@ a:hover {
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
 }
+
+/* .features-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+} */
 
 .sect_benefits {
   padding: 120px 0;
