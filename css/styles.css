@@ -87,8 +87,8 @@ justify-content: center;
 }
 
 .svg_icon_p {
-  width: 24;
-  height: 24;
+  /* width: 24; */
+  /* height: 24; */
   fill: var(--button-colour-text);
 }
 
