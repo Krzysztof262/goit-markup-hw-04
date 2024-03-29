@@ -132,7 +132,7 @@ justify-content: center;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.logo-header {
+.logo_header {
   font-family: "Raleway", sans-serif;
   color: #4D5AE5;
   text-transform: uppercase;
@@ -143,6 +143,41 @@ justify-content: center;
   letter-spacing: 0.03em;
   margin-right: 76px;
   position: relative;
+  text-decoration: none;
+}
+
+/* logo link nav_a */złączona klasa
+
+.list_header{
+      color: #2E2F42;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      padding: 24px 0;
+      display: flex;
+     
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      text-decoration: none;
+}
+
+/* list link nav-li */złączona klasa
+/* .studio-item */
+.list_header {
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.list_header::after {
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background: #404BBF;
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
 }
 
 .command_icon{
