@@ -80,9 +80,9 @@ position: relative;
       color: #F4F4FD;
       padding: 40px 32px;
       letter-spacing: 0.02em;
-      transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      /* transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
       transform: translateY(100%);
-      box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+      /* box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08); */
       /* box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16); */
       /* box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08); */
 }
@@ -95,7 +95,7 @@ position: relative;
 
 .a_img:hover .box {
   transform: translateY(0%);
-  /* transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
