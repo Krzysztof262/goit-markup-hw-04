@@ -166,7 +166,8 @@ a:hover {
 } */
 
 .list_header{
-      color: #2E2F42;
+      /* color: #2E2F42; */
+      color: #404bbf;;
       font-weight: 500;
       font-size: 16px;
       line-height: 1.5;
@@ -193,6 +194,7 @@ a:hover {
   color: var(--color-text);
   list-style: none;
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-address:hover,
@@ -606,11 +608,11 @@ display: flex;
 
 .white_background {
   background-color: var(--color-white);
-  /* width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px; */
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), */
+    /* 0px 1px 1px rgba(46, 47, 66, 0.16), */
+    /* 0px 2px 1px rgba(46, 47, 66, 0.08); */
 }
 
 .p_portfolio {
